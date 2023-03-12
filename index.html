@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>kanji</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    </head>
+    <body>
+        <div id="start" class='block'>
+            <div id='welcome'></div>
+            <div class="jlpt">
+                <p>JLPT</p>
+                <select name="jlpt" id="jlpt">
+                    <option value=""></option>
+                    <option value="5">5</option>
+                    <option value="4">4</option>
+                    <option value="3">3</option>
+                    <option value="2">2</option>
+                    <option value="1">1</option>
+                </select>
+            </div>
+            <div class="speed"><p>Скорость в мс</p><input type="number" id="speed"></div>
+        </div>
+        <div id="buttons">
+            <button id="enter">Enter</button>
+            <button id="space">Space</button>
+            <button id="left">←</button>
+            <button id="right">→</button>
+            <button id="shift">Shift</button>
+            <button id="ctrl">Ctrl</button>
+        </div>
+    </body>
+
+    <script src="json.js"></script>
+    <script src="scripts.js"></script>
+</html>
