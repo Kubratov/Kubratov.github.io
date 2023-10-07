@@ -1,0 +1,161 @@
+html{
+    min-height: 80%;
+    min-width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    min-width: 100%;
+    width: 100%;
+    /* color: white; */
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    min-width: 100%;
+    width: 100%;
+    font-size: 25px;
+}
+.content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.kanji-space {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+.kanji-list {
+    width: 50%;
+    min-width: 50%;
+}
+.kanji-list1 {
+    width: 50%;
+    min-width: 50%;
+}
+.kanji-panel {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    /* position: fixed;
+    right: 0;
+    top: 0; */
+    max-height: 95vh;
+    /* width: 20%;
+    min-width: 20%; */
+    /* width: 10%;
+    min-width: 10%; */
+    width: 150px;
+    min-width: 150px;
+    /* overflow: auto; */
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    /* overflow-x: hidden; */
+    /* overflow-x: hidden; */
+    /* overflow-y: auto; */
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.kanji-panel::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+.kanji-panel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 98%; */
+    /* width: 90%; */
+    max-width: 140px;
+    min-width: 140px;
+    max-height: 140px;
+    min-height: 140px;
+    height: 140px;
+    /* height: 100px; */
+    border: 5px double black;
+    /* border-color: black; */
+    font-size: 80px;
+}
+/* .kanji-panel-item:after {
+    content: "";
+    padding-top: 100%;
+    display: block;
+} */
+.jlpt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+select {
+    width: 80px;
+    height: 25px;
+}
+.input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+input {
+    width: 72px;
+    height: 20px;
+}
+.id{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#speed{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.kanji{
+    font-size: 100px;
+}
+#buttons button{
+    position: fixed;
+    /* display: none; */
+    width: 80px;
+    height: 80px;
+}
+#enter{
+    left: 0;
+    top: 0;
+    font-size: 20px;
+}
+#space{
+    right: 0;
+    top: 0;
+    font-size: 20px;
+}
+#left{
+    left: 0;
+    bottom: 0;
+    font-size: 50px;
+}
+#right{
+    right: 0;
+    bottom: 0;
+    font-size: 50px;
+}
+#ctrl{
+    left: 80px;
+    top: 0;
+    font-size: 20px;
+}
+#shift{
+    right: 80px;
+    top: 0;
+    font-size: 20px;
+}
