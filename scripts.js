@@ -310,7 +310,7 @@ jQuery(document).ready(function($){
         // form_data.append('kanji', vid);
 
         $.ajax({
-            url: 'http://brandnewbo.temp.swtest.ru/test.php',
+            url: 'https://brandnewbo.temp.swtest.ru/test.php',
             dataType: 'text',
             cache: false,
             contentType: false,
